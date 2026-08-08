@@ -1,5 +1,5 @@
 // --- EDIT ME: paste your Google Form link here once it's created ---
-const RSVP_FORM_URL = "";
+const RSVP_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf4ucFcFtlOm_1DDrqxwPBv-mdug6APlX7qrDrkdCtBiMnirg/viewform";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Mobile nav toggle

@@ -13,6 +13,7 @@
   --tint-blush: #fbf0ef;
   --tint-grey: #efede8;
   --tint-sage: #eef2e9;
+  --tint-ivory: #f4efe3;
 
   /* Deeper accent tones used for subsection borders/icons */
   --accent-taupe: #b5735f;
@@ -117,6 +118,11 @@ a { color: inherit; }
   background: var(--tint-champagne);
 }
 
+.hero-heading {
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
 .hero-photo-frame {
   width: 100%;
   max-width: 340px;
@@ -146,12 +152,13 @@ a { color: inherit; }
   letter-spacing: 0.2em;
   color: var(--gold);
   font-size: 0.85rem;
-  margin-bottom: 0.5rem;
+  margin: 0.6rem 0 0.5rem;
 }
 
 .hero-names {
   font-size: clamp(2.5rem, 7vw, 4.5rem);
   color: var(--sage-dark);
+  margin-bottom: 1.5rem;
 }
 
 .hero-names .amp {
@@ -163,7 +170,7 @@ a { color: inherit; }
 .hero-date {
   font-size: 1.3rem;
   letter-spacing: 0.05em;
-  margin: 0.75rem 0 2rem;
+  margin: 0;
   color: var(--ink);
 }
 
@@ -242,6 +249,7 @@ a { color: inherit; }
 }
 
 /* Distinct pastel identity per section, drawn from the wedding's color palette */
+.ceremony-reception { background: var(--tint-ivory); }
 .travel     { background: var(--tint-taupe); }
 .dresscode  { background: var(--tint-blush); }
 .faq        { background: var(--tint-grey); }
@@ -306,6 +314,40 @@ a { color: inherit; }
   font-style: italic;
 }
 
+.dresscode-card {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(124, 138, 106, 0.25);
+  border-radius: 14px;
+  padding: 2rem;
+  margin: 1.5rem auto 0;
+  max-width: 560px;
+}
+
+.dresscode-style {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--sage-dark);
+}
+
+.story-card {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(124, 138, 106, 0.25);
+  border-radius: 14px;
+  padding: 2rem 2.25rem;
+  margin: 1.5rem auto 0;
+  max-width: 640px;
+  text-align: left;
+}
+
+.story-card p {
+  margin: 0 0 1rem;
+}
+
+.story-card p:last-child {
+  margin-bottom: 0;
+}
+
 /* TIMELINE */
 .timeline {
   list-style: none;
@@ -343,16 +385,6 @@ a { color: inherit; }
 
 .timeline .event {
   font-style: italic;
-}
-
-/* VENUE LINE (schedule section) */
-.venue-line {
-  margin-top: 2rem;
-  font-style: italic;
-}
-
-.venue-line a {
-  color: var(--gold);
 }
 
 /* LOCATION (travel section) */
@@ -396,7 +428,6 @@ a { color: inherit; }
   margin-bottom: 0;
 }
 
-.panel-accent-gold  { border-left-color: var(--gold); }
 .panel-accent-sage  { border-left-color: var(--sage); }
 .panel-accent-taupe { border-left-color: var(--accent-taupe); }
 .panel-accent-blush { border-left-color: var(--accent-blush); }
@@ -447,53 +478,55 @@ a { color: inherit; }
 }
 
 /* HOTELS */
-.hotel-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+.hotel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.hotel-card {
-  text-align: center;
+.hotel-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(124, 138, 106, 0.2);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  text-align: left;
 }
 
-.hotel-card h4 {
-  font-size: 1.2rem;
+.hotel-info h4 {
+  font-size: 1.15rem;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
   color: var(--sage-dark);
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.3rem;
 }
 
-.hotel-photo-placeholder {
-  aspect-ratio: 4 / 3;
-  border-radius: 10px;
-  background: rgba(201, 162, 75, 0.1);
-  border: 1px dashed var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--sage-dark);
-  padding: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.hotel-photo {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 0.75rem;
-  display: block;
-}
-
-.placeholder-note {
-  text-align: center;
+.hotel-info .venue-address {
+  text-align: left;
   font-style: italic;
+  margin: 0;
+}
+
+.hotel-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.distance-badge {
+  background: rgba(201, 162, 75, 0.15);
   color: var(--sage-dark);
-  margin: 1.75rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  white-space: nowrap;
 }
 
 /* PALETTE SWATCHES */
@@ -721,6 +754,16 @@ a { color: inherit; }
 
   .subsection-panel {
     padding: 1.25rem;
+  }
+
+  .hotel-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hotel-meta {
+    align-items: flex-start;
+    width: 100%;
   }
 
   .welcome-note {
