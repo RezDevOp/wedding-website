@@ -24,15 +24,19 @@
           <span></span><span></span><span></span>
         </button>
         <nav class="nav-links" id="navLinks">
-          <a href="#home">Home</a>
-          <a href="#story">Our Story</a>
-          <a href="#schedule">Details</a>
-          <a href="#ceremony-reception">Ceremony</a>
-          <a href="#travel">Travel</a>
-          <a href="#dresscode">Dress Code</a>
-          <a href="#faq">FAQ</a>
-          <a href="#contact">Contact</a>
-          <a href="#rsvp" class="nav-rsvp">RSVP</a>
+          <div class="lang-switch">
+            <button type="button" class="lang-btn active" data-lang="en">EN</button>
+            <button type="button" class="lang-btn" data-lang="de">DE</button>
+          </div>
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#story" data-i18n="nav.story">Our Story</a>
+          <a href="#schedule" data-i18n="nav.details">Details</a>
+          <a href="#ceremony-reception" data-i18n="nav.ceremony">Ceremony</a>
+          <a href="#travel" data-i18n="nav.travel">Travel</a>
+          <a href="#dresscode" data-i18n="nav.dresscode">Dress Code</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+          <a href="#rsvp" class="nav-rsvp" data-i18n="nav.rsvp">RSVP</a>
         </nav>
       </div>
     </header>
@@ -53,96 +57,96 @@
         </div>
 
         <div class="hero-heading">
-          <p class="eyebrow">Are Saying I Do</p>
-          <p class="hero-date">Saturday, 5 September 2026</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Are Saying I Do</p>
+          <p class="hero-date" data-i18n="hero.date">Saturday, 5 September 2026</p>
         </div>
 
         <div class="hero-content">
           <div class="welcome-note">
-            <p>Welcome,</p>
-            <p>
+            <p data-i18n="hero.welcomeGreeting">Welcome,</p>
+            <p data-i18n="hero.welcome1">
               We all know planning a wedding is tricky. For us, our biggest
               challenge so far for our garden wedding has been whether to go
               with round tables (Christian) or rectangular tables (Sandra) 😅.
               We spent hours debating and asking ChatGPT.
             </p>
-            <p>
+            <p data-i18n="hero.welcome2">
               Well, now that that's decided, all that's left to do is celebrate
               with the people who matter most to us &mdash; you!
             </p>
-            <p>We're so excited and we can't wait to make memories together.</p>
+            <p data-i18n="hero.welcome3">We're so excited and we can't wait to make memories together.</p>
           </div>
 
           <div class="countdown" id="countdown" aria-live="polite">
             <div class="countdown-item">
-              <span id="cd-days">--</span><small>Days</small>
+              <span id="cd-days">--</span><small data-i18n="hero.cdDays">Days</small>
             </div>
             <div class="countdown-item">
-              <span id="cd-hours">--</span><small>Hours</small>
+              <span id="cd-hours">--</span><small data-i18n="hero.cdHours">Hours</small>
             </div>
             <div class="countdown-item">
-              <span id="cd-mins">--</span><small>Minutes</small>
+              <span id="cd-mins">--</span><small data-i18n="hero.cdMins">Minutes</small>
             </div>
             <div class="countdown-item">
-              <span id="cd-secs">--</span><small>Seconds</small>
+              <span id="cd-secs">--</span><small data-i18n="hero.cdSecs">Seconds</small>
             </div>
           </div>
 
-          <a href="#rsvp" class="btn btn-primary">RSVP Now</a>
+          <a href="#rsvp" class="btn btn-primary" data-i18n="hero.rsvpBtn">RSVP Now</a>
         </div>
       </section>
 
       <!-- OUR STORY -->
       <section id="story" class="section story">
         <span class="section-icon">💑</span>
-        <h2 class="section-title">Our Story</h2>
+        <h2 class="section-title" data-i18n="story.title">Our Story</h2>
         <div class="divider"></div>
         <div class="story-card">
-          <p>We chatted a lot and after a long time and a few hesitations, we decided to meet. That was in Paris.
+          <p data-i18n="story.p1">We chatted a lot and after a long time and a few hesitations, we decided to meet. That was in Paris.
             We then talked some more, had a delicious dinner, a couple bottles of fine wine, laughed... and
             somehow neither of us scared the other away. That felt promising.</p>
-          <p>Since then, we've become partners in adventure, experts at last minute planning, couch buddies and
+          <p data-i18n="story.p2">Since then, we've become partners in adventure, experts at last minute planning, couch buddies and
             puzzle partners. Through every trip, every ordinary Tuesday, and all our shocking cultural
             discoveries, we've realised that life is simply better together.</p>
-          <p>So, we decided to make it official. And here we are.</p>
+          <p data-i18n="story.p3">So, we decided to make it official. And here we are.</p>
         </div>
       </section>
 
       <!-- SCHEDULE -->
       <section id="schedule" class="section schedule">
         <span class="section-icon">🗓️</span>
-        <h2 class="section-title">Event Details &amp; Schedule</h2>
+        <h2 class="section-title" data-i18n="schedule.title">Event Details &amp; Schedule</h2>
         <div class="divider"></div>
-        <p class="section-subtitle">Saturday, 5 September 2026</p>
+        <p class="section-subtitle" data-i18n="hero.date">Saturday, 5 September 2026</p>
 
         <ol class="timeline">
           <li>
             <span class="time">13:30</span
-            ><span class="event">Arrival at Wedding Venue</span>
+            ><span class="event" data-i18n="schedule.item1">Arrival at Wedding Venue</span>
           </li>
           <li>
             <span class="time">14:00</span
-            ><span class="event">Civil Ceremony</span>
+            ><span class="event" data-i18n="schedule.item2">Civil Ceremony</span>
           </li>
           <li>
             <span class="time">17:00</span
-            ><span class="event">Garden Cocktail Hour</span>
+            ><span class="event" data-i18n="schedule.item3">Garden Cocktail Hour</span>
           </li>
           <li>
             <span class="time">18:00</span
-            ><span class="event">Reception Dinner</span>
+            ><span class="event" data-i18n="schedule.item4">Reception Dinner</span>
           </li>
           <li>
             <span class="time">21:00</span
-            ><span class="event">Dance Floor Opens</span>
+            ><span class="event" data-i18n="schedule.item5">Dance Floor Opens</span>
           </li>
           <li>
             <span class="time">22:15</span
-            ><span class="event">Cake Cutting</span>
+            ><span class="event" data-i18n="schedule.item6">Cake Cutting</span>
           </li>
           <li>
             <span class="time">22:30</span
-            ><span class="event">Party Time!</span>
+            ><span class="event" data-i18n="schedule.item7">Party Time!</span>
           </li>
         </ol>
       </section>
@@ -150,11 +154,11 @@
       <!-- CEREMONY & RECEPTION LOCATIONS -->
       <section id="ceremony-reception" class="section ceremony-reception">
         <span class="section-icon">🏠</span>
-        <h2 class="section-title">Ceremony &amp; Reception Locations</h2>
+        <h2 class="section-title" data-i18n="ceremony.title">Ceremony &amp; Reception Locations</h2>
         <div class="divider"></div>
 
         <div class="location">
-          <h4>Court Wedding &mdash; Villa Wertheimber</h4>
+          <h4 data-i18n="ceremony.villaTitle">Court Wedding &mdash; Villa Wertheimber</h4>
           <p class="venue-address">
             Tannenwaldallee 50, 61348 Bad Homburg v.d. Höhe, Germany
           </p>
@@ -163,12 +167,13 @@
             href="https://www.google.com/maps/search/?api=1&query=Villa+Wertheimber+Tannenwaldallee+50+Bad+Homburg"
             target="_blank"
             rel="noopener"
+            data-i18n="common.checkMap"
             >📍 Check Google Maps</a
           >
         </div>
 
         <div class="location">
-          <h4>Reception Venue</h4>
+          <h4 data-i18n="ceremony.receptionTitle">Reception Venue</h4>
           <p class="venue-address">
             Kaiser-Friedrich-Promenade 131, 61348 Bad Homburg, Germany
           </p>
@@ -177,6 +182,7 @@
             href="https://www.google.com/maps?cid=5783659627766378915"
             target="_blank"
             rel="noopener"
+            data-i18n="common.checkMap"
             >📍 Check Google Maps</a
           >
         </div>
@@ -185,14 +191,14 @@
       <!-- TRAVEL -->
       <section id="travel" class="section travel">
         <span class="section-icon">🧭</span>
-        <h2 class="section-title">Travel &amp; Accommodation</h2>
+        <h2 class="section-title" data-i18n="travel.title">Travel &amp; Accommodation</h2>
         <div class="divider"></div>
 
         <div class="subsection-panel panel-accent-sage">
           <h3 class="subsection-title">
-            <span class="subsection-icon">✈️</span> Airport
+            <span class="subsection-icon">✈️</span> <span data-i18n="travel.airportTitle">Airport</span>
           </h3>
-          <p class="airport-line">
+          <p class="airport-line" data-i18n="travel.airportLine">
             <strong>Frankfurt Airport (FRA)</strong> &mdash; approx. 27 km from
             the reception venue.
           </p>
@@ -200,7 +206,7 @@
 
         <div class="subsection-panel panel-accent-taupe">
           <h3 class="subsection-title">
-            <span class="subsection-icon">🚆</span> Train Station
+            <span class="subsection-icon">🚆</span> <span data-i18n="travel.trainTitle">Train Station</span>
           </h3>
 
           <div class="location">
@@ -213,13 +219,14 @@
               href="https://www.google.com/maps/search/?api=1&query=Frankfurt+(Main)+Hauptbahnhof"
               target="_blank"
               rel="noopener"
+              data-i18n="common.checkMap"
               >📍 Check Google Maps</a
             >
-            <p class="distance-note">Approx. 19 km from the reception venue.</p>
+            <p class="distance-note" data-i18n="travel.hauptbahnhofDistance">Approx. 19 km from the reception venue.</p>
           </div>
 
           <div class="location">
-            <h4>Frankfurt Flughafen Train Station</h4>
+            <h4 data-i18n="travel.flughafenStationTitle">Frankfurt Flughafen Train Station</h4>
             <p class="venue-address">
               Am Flughafen, 60549 Frankfurt am Main, Germany
             </p>
@@ -228,15 +235,16 @@
               href="https://www.google.com/maps/search/?api=1&query=Frankfurt+Flughafen+Fernbahnhof"
               target="_blank"
               rel="noopener"
+              data-i18n="common.checkMap"
               >📍 Check Google Maps</a
             >
-            <p class="distance-note">Approx. 25 km from the reception venue.</p>
+            <p class="distance-note" data-i18n="travel.flughafenDistance">Approx. 25 km from the reception venue.</p>
           </div>
         </div>
 
         <div class="subsection-panel panel-accent-blush">
           <h3 class="subsection-title">
-            <span class="subsection-icon">🏨</span> Hotels
+            <span class="subsection-icon">🏨</span> <span data-i18n="travel.hotelsTitle">Hotels</span>
           </h3>
 
           <div class="hotel-list">
@@ -246,8 +254,8 @@
                 <p class="venue-address">Philosophenweg 31, 61350 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">2.1 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.hardtwaldDist">2.1 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Hardtwald+Hotel+Philosophenweg+31+Bad+Homburg"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -259,8 +267,8 @@
                 <p class="venue-address">Kaiser-Friedrich-Promenade 69-75, 61348 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">0.9 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.steigenbergerDist">0.9 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Steigenberger+Hotel+Bad+Homburg+Kaiser-Friedrich-Promenade+69-75"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -272,8 +280,8 @@
                 <p class="venue-address">Ferdinandstraße 2-4, 61348 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">0.7 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.comfortDist">0.7 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Comfort+Hotel+Am+Kurpark+Ferdinandstrasse+2-4+Bad+Homburg"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -285,8 +293,8 @@
                 <p class="venue-address">Kisseleffstraße 19, 61348 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">0.8 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.kisseleffDist">0.8 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Villa+Kisseleff+Kisseleffstrasse+19+Bad+Homburg"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -298,8 +306,8 @@
                 <p class="venue-address">Kaiser-Friedrich-Promenade 53-55, 61348 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">1.1 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.parkhotelDist">1.1 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Parkhotel+Bad+Homburg+Kaiser-Friedrich-Promenade+53-55"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -311,8 +319,8 @@
                 <p class="venue-address">Kaiser-Friedrich-Promenade 57, 61348 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">1.0 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.kurparkDist">1.0 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Villa+am+Kurpark+Kaiser-Friedrich-Promenade+57+Bad+Homburg"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -324,8 +332,8 @@
                 <p class="venue-address">Ludwigstraße 3, 61348 Bad Homburg v.d. Höhe, Germany</p>
               </div>
               <div class="hotel-meta">
-                <span class="distance-badge">1.2 km to venue</span>
-                <a class="map-link"
+                <span class="distance-badge" data-i18n="hotel.maritimDist">1.2 km to venue</span>
+                <a class="map-link" data-i18n="common.checkMap"
                    href="https://www.google.com/maps/search/?api=1&query=Maritim+Hotel+Bad+Homburg+Ludwigstrasse+3"
                    target="_blank" rel="noopener">📍 Check Google Maps</a>
               </div>
@@ -337,44 +345,44 @@
       <!-- DRESS CODE -->
       <section id="dresscode" class="section dresscode">
         <span class="section-icon">👗</span>
-        <h2 class="section-title">Dress Code</h2>
+        <h2 class="section-title" data-i18n="dresscode.title">Dress Code</h2>
         <div class="divider"></div>
         <div class="dresscode-card">
-          <p class="dresscode-style">Elegant &amp; Classy</p>
-          <p class="theme-note">
+          <p class="dresscode-style" data-i18n="dresscode.style">Elegant &amp; Classy</p>
+          <p class="theme-note" data-i18n="dresscode.note">
             Feel free to let our suggested palette below inspire your outfit!
           </p>
         </div>
 
-        <p class="palette-title">Suggested Colors</p>
+        <p class="palette-title" data-i18n="dresscode.paletteTitle">Suggested Colors</p>
         <div class="palette">
           <div class="palette-item">
             <span class="swatch swatch-sage" title="Sage"></span>
-            <span class="swatch-label">Sage</span>
+            <span class="swatch-label" data-i18n="dresscode.sage">Sage</span>
           </div>
           <div class="palette-item">
             <span class="swatch swatch-blush" title="Blush"></span>
-            <span class="swatch-label">Blush</span>
+            <span class="swatch-label" data-i18n="dresscode.blush">Blush</span>
           </div>
           <div class="palette-item">
             <span class="swatch swatch-champagne" title="Champagne"></span>
-            <span class="swatch-label">Champagne</span>
+            <span class="swatch-label" data-i18n="dresscode.champagne">Champagne</span>
           </div>
           <div class="palette-item">
             <span class="swatch swatch-dustytaupe" title="Dusty Taupe"></span>
-            <span class="swatch-label">Dusty Taupe</span>
+            <span class="swatch-label" data-i18n="dresscode.dustyTaupe">Dusty Taupe</span>
           </div>
           <div class="palette-item">
             <span class="swatch swatch-softgrey" title="Soft Grey"></span>
-            <span class="swatch-label">Soft Grey</span>
+            <span class="swatch-label" data-i18n="dresscode.softGrey">Soft Grey</span>
           </div>
           <div class="palette-item">
             <span class="swatch swatch-ivory" title="Ivory"></span>
-            <span class="swatch-label">Ivory</span>
+            <span class="swatch-label" data-i18n="dresscode.ivory">Ivory</span>
           </div>
           <div class="palette-item">
             <span class="swatch swatch-mutedgold" title="Muted Gold"></span>
-            <span class="swatch-label">Muted Gold</span>
+            <span class="swatch-label" data-i18n="dresscode.mutedGold">Muted Gold</span>
           </div>
         </div>
       </section>
@@ -382,25 +390,25 @@
       <!-- FAQ -->
       <section id="faq" class="section faq">
         <span class="section-icon">❓</span>
-        <h2 class="section-title">FAQ</h2>
+        <h2 class="section-title" data-i18n="faq.title">FAQ</h2>
         <div class="divider"></div>
 
         <div class="faq-list">
           <details class="faq-item">
-            <summary>Which train station should I stop at?</summary>
-            <p>🚧 Answer coming soon.</p>
+            <summary data-i18n="faq.q1">Which train station should I stop at?</summary>
+            <p data-i18n="faq.a1">🚧 Answer coming soon.</p>
           </details>
           <details class="faq-item">
-            <summary>Should I rent a car?</summary>
-            <p>
+            <summary data-i18n="faq.q2">Should I rent a car?</summary>
+            <p data-i18n="faq.a2">
               Uber and Bolt are pretty reliable, but if you're traveling with
               family or just want extra comfort and flexibility, renting a car
               is a great option. We'd suggest booking it early so it's cheaper.
             </p>
           </details>
           <details class="faq-item">
-            <summary>Can I bring my kids along for the wedding?</summary>
-            <p>
+            <summary data-i18n="faq.q3">Can I bring my kids along for the wedding?</summary>
+            <p data-i18n="faq.a3">
               We'd love for you to have a chance to enjoy a little grown up time, but we understand that
               sometimes the babysitter has other plans. If you don't have anyone to leave your little ones
               with, bring them along &mdash; we will happily welcome them. Just make sure to let us know on
@@ -408,10 +416,10 @@
             </p>
           </details>
           <details class="faq-item">
-            <summary>Where do I park my car?</summary>
-            <p><strong>Civil ceremony:</strong> Parking spots are available at the villa.</p>
-            <p><strong>Reception:</strong></p>
-            <ol class="faq-list-inner">
+            <summary data-i18n="faq.q4">Where do I park my car?</summary>
+            <p data-i18n="faq.a4civil"><strong>Civil ceremony:</strong> Parking spots are available at the villa.</p>
+            <p data-i18n="faq.a4receptionLabel"><strong>Reception:</strong></p>
+            <ol class="faq-list-inner" data-i18n="faq.a4list">
               <li>Hotel parking for guests &mdash; all hotels listed are walking distance from the venue.</li>
               <li>Free street parking along the Kaiser-Friedrich-Promenade.</li>
               <li>Parking garage &mdash; Seedammweg 7, 61352 Bad Homburg vor der Höhe (walking distance from the venue).</li>
@@ -423,20 +431,21 @@
       <!-- CONTACT -->
       <section id="contact" class="section contact">
         <span class="section-icon">✉️</span>
-        <h2 class="section-title">Contact Us</h2>
+        <h2 class="section-title" data-i18n="contact.title">Contact Us</h2>
         <div class="divider"></div>
 
         <div class="contact-card">
-          <p class="contact-role">Organizer &amp; Coordinator</p>
+          <p class="contact-role" data-i18n="contact.role">Organizer &amp; Coordinator</p>
           <p class="contact-name">Okah Perez</p>
           <p class="contact-phone">
-            +358 2736780 <span class="contact-note">(WhatsApp only)</span>
+            +358 2736780 <span class="contact-note" data-i18n="contact.whatsappOnly">(WhatsApp only)</span>
           </p>
           <a
             class="btn btn-primary"
             href="https://wa.me/3582736780"
             target="_blank"
             rel="noopener"
+            data-i18n="contact.btn"
             >Message on WhatsApp</a
           >
         </div>
@@ -445,9 +454,9 @@
       <!-- RSVP -->
       <section id="rsvp" class="section rsvp">
         <span class="section-icon">💌</span>
-        <h2 class="section-title">RSVP</h2>
+        <h2 class="section-title" data-i18n="rsvp.title">RSVP</h2>
         <div class="divider"></div>
-        <p class="section-subtitle">
+        <p class="section-subtitle" data-i18n="rsvp.subtitle">
           Kindly let us know if you'll be joining us.
         </p>
         <a
@@ -456,16 +465,18 @@
           class="btn btn-primary"
           target="_blank"
           rel="noopener"
+          data-i18n="rsvp.btn"
           >Fill Out RSVP Form</a
         >
-        <p class="rsvp-note">🚧 RSVP link coming soon.</p>
+        <p class="rsvp-note" data-i18n="rsvp.note">🚧 RSVP link coming soon.</p>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Sandra &amp; Christian &middot; 5 September 2026</p>
+      <p data-i18n="footer.text">Sandra &amp; Christian &middot; 5 September 2026</p>
     </footer>
 
+    <script src="js/i18n.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
