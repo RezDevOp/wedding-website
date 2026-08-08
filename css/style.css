@@ -402,14 +402,6 @@ a { color: inherit; }
   margin: 0;
 }
 
-.location.is-placeholder {
-  color: var(--ink);
-}
-
-.location.is-placeholder h4 {
-  color: var(--gold);
-}
-
 .subsection-panel {
   background: rgba(255, 255, 255, 0.6);
   border-left: 4px solid var(--gold);
