@@ -611,6 +611,19 @@ a { color: inherit; }
   margin: 0.75rem 0 0.25rem 1.2rem;
 }
 
+.faq-list-inner {
+  margin: 0.25rem 0 0.75rem 1.2rem;
+  padding-left: 1.25rem;
+}
+
+.faq-list-inner li {
+  margin-bottom: 0.4rem;
+}
+
+.faq-list-inner li:last-child {
+  margin-bottom: 0;
+}
+
 /* CONTACT */
 .contact-card {
   background: rgba(255, 255, 255, 0.55);
