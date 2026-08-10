@@ -73,7 +73,7 @@ const translations = {
 
     "faq.title": "FAQ",
     "faq.q1": "Which train station should I stop at?",
-    "faq.a1": "🚧 Answer coming soon.",
+    "faq.a1": "Either works well, depending on where you're coming from. If you're already in Germany, Frankfurt (Main) Hauptbahnhof is a great option. If you're flying in, the Frankfurt Flughafen train station is the most convenient, since it's right at the airport. You'll find both listed with directions in the Travel &amp; Accommodation section above.",
     "faq.q2": "Should I rent a car?",
     "faq.a2": "Uber and Bolt are pretty reliable, but if you're traveling with family or just want extra comfort and flexibility, renting a car is a great option. We'd suggest booking it early so it's cheaper.",
     "faq.q3": "Can I bring my kids along for the wedding?",
@@ -170,7 +170,7 @@ const translations = {
 
     "faq.title": "FAQ",
     "faq.q1": "An welchem Bahnhof sollte ich aussteigen?",
-    "faq.a1": "🚧 Antwort folgt in Kürze.",
+    "faq.a1": "Beide eignen sich gut, je nachdem, woher ihr kommt. Wenn ihr bereits in Deutschland seid, ist der Frankfurter Hauptbahnhof eine gute Wahl. Wenn ihr einfliegt, ist der Bahnhof Frankfurt Flughafen am praktischsten, da er direkt am Flughafen liegt. Beide findet ihr mit Wegbeschreibung weiter oben im Abschnitt Anreise &amp; Unterkunft.",
     "faq.q2": "Sollte ich ein Auto mieten?",
     "faq.a2": "Uber und Bolt sind ziemlich zuverlässig, aber wenn ihr mit der Familie unterwegs seid oder einfach mehr Komfort und Flexibilität möchtet, ist ein Mietwagen eine tolle Option. Wir empfehlen, frühzeitig zu buchen, damit es günstiger wird.",
     "faq.q3": "Kann ich meine Kinder zur Hochzeit mitbringen?",
