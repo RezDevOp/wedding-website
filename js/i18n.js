@@ -10,7 +10,7 @@ const translations = {
     "nav.contact": "Contact",
     "nav.rsvp": "RSVP",
 
-    "hero.eyebrow": "Are Saying I Do",
+    "hero.eyebrow": "&quot;Are Saying I Do&quot;",
     "hero.date": "Saturday, 5 September 2026",
     "hero.welcomeGreeting": "Welcome,",
     "hero.welcome1": "We all know planning a wedding is tricky. For us, our biggest challenge so far for our garden wedding has been whether to go with round tables (Christian) or rectangular tables (Sandra) 😅. We spent hours debating and asking ChatGPT.",
@@ -107,7 +107,7 @@ const translations = {
     "nav.contact": "Kontakt",
     "nav.rsvp": "RSVP",
 
-    "hero.eyebrow": "Geben sich das Jawort",
+    "hero.eyebrow": "&quot;Geben sich das Jawort&quot;",
     "hero.date": "Samstag, 5. September 2026",
     "hero.welcomeGreeting": "Willkommen,",
     "hero.welcome1": "Wir alle wissen, dass eine Hochzeit zu planen kein Kinderspiel ist. Für uns war die größte Herausforderung bei unserer Gartenhochzeit bisher, ob wir runde Tische (Christian) oder rechteckige Tische (Sandra) nehmen sollen 😅. Wir haben stundenlang diskutiert und sogar ChatGPT gefragt.",
