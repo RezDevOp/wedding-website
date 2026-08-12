@@ -288,7 +288,7 @@ a { color: inherit; }
   background-image: linear-gradient(rgba(250, 246, 239, 0.55), rgba(250, 246, 239, 0.55)),
     url("../assets/img/story-rings.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center 68%;
 }
 
 .schedule {
