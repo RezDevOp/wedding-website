@@ -285,7 +285,7 @@ a { color: inherit; }
 .contact    { background: var(--tint-sage); }
 
 .story {
-  background-image: linear-gradient(rgba(250, 246, 239, 0.88), rgba(250, 246, 239, 0.88)),
+  background-image: linear-gradient(rgba(250, 246, 239, 0.55), rgba(250, 246, 239, 0.55)),
     url("../assets/img/story-rings.jpg");
   background-size: cover;
   background-position: center;
@@ -360,7 +360,8 @@ a { color: inherit; }
 }
 
 .story-card {
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
   border: 1px solid rgba(124, 138, 106, 0.25);
   border-radius: 14px;
   padding: 2rem 2.25rem;
