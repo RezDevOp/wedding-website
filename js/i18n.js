@@ -68,7 +68,6 @@ const translations = {
     "dresscode.champagne": "Champagne",
     "dresscode.dustyTaupe": "Dusty Taupe",
     "dresscode.softGrey": "Soft Grey",
-    "dresscode.ivory": "Ivory",
     "dresscode.mutedGold": "Muted Gold",
 
     "faq.title": "FAQ",
@@ -165,7 +164,6 @@ const translations = {
     "dresscode.champagne": "Champagner",
     "dresscode.dustyTaupe": "Taupe",
     "dresscode.softGrey": "Hellgrau",
-    "dresscode.ivory": "Elfenbein",
     "dresscode.mutedGold": "Mattgold",
 
     "faq.title": "FAQ",
