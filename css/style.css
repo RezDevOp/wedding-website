@@ -360,9 +360,8 @@ a { color: inherit; }
 }
 
 .story-card {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(6px);
-  border: 1px solid rgba(124, 138, 106, 0.3);
+  background: transparent;
+  border: 1px solid rgba(124, 138, 106, 0.35);
   border-radius: 14px;
   padding: 2rem 2.25rem;
   margin: 1.5rem auto 0;
@@ -372,7 +371,7 @@ a { color: inherit; }
 
 .story-card p {
   margin: 0 0 1rem;
-  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.55);
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.9), 0 1px 10px rgba(255, 255, 255, 0.9);
 }
 
 .story-card p:last-child {
