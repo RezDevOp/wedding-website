@@ -595,6 +595,9 @@ a { color: inherit; }
 .swatch-dustytaupe { background: #c98d7c; }
 .swatch-softgrey { background: #aca79c; }
 .swatch-mutedgold { background: #c9a24b; }
+.swatch-buttercream { background: #faedcb; }
+.swatch-powderblue { background: #c6def1; }
+.swatch-lilac { background: #dbcdf0; }
 
 /* FAQ */
 .faq-list {

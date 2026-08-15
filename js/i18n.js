@@ -69,6 +69,9 @@ const translations = {
     "dresscode.dustyTaupe": "Dusty Taupe",
     "dresscode.softGrey": "Soft Grey",
     "dresscode.mutedGold": "Muted Gold",
+    "dresscode.buttercream": "Buttercream",
+    "dresscode.powderBlue": "Powder Blue",
+    "dresscode.lilac": "Lilac",
 
     "faq.title": "FAQ",
     "faq.q1": "Which train station should I stop at?",
@@ -167,6 +170,9 @@ const translations = {
     "dresscode.dustyTaupe": "Taupe",
     "dresscode.softGrey": "Hellgrau",
     "dresscode.mutedGold": "Mattgold",
+    "dresscode.buttercream": "Buttercreme",
+    "dresscode.powderBlue": "Puderblau",
+    "dresscode.lilac": "Flieder",
 
     "faq.title": "FAQ",
     "faq.q1": "An welchem Bahnhof sollte ich aussteigen?",
