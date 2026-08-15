@@ -81,6 +81,8 @@ const translations = {
     "faq.a4civil": "<strong>Civil ceremony:</strong> Parking spots are available at the villa.",
     "faq.a4receptionLabel": "<strong>Reception:</strong>",
     "faq.a4list": "<li>Hotel parking for guests — all hotels listed are walking distance from the venue.</li><li>Free street parking along the Kaiser-Friedrich-Promenade.</li><li>Parking garage — Seedammweg 7, 61352 Bad Homburg vor der Höhe (walking distance from the venue).</li>",
+    "faq.q5": "Does the couple have a specific wish for gifts?",
+    "faq.a5": "Your presence at our wedding is truly the greatest gift. If you would nevertheless like to give something, we would be deeply touched if you chose to make a donation to <a href=\"https://okahshelpinghand.com\" target=\"_blank\" rel=\"noopener\">Okah's Helping Hand</a>, a charity founded by Sandra six years ago. It is dedicated to supporting underprivileged children and families in Cameroon by providing access to education and essential basic needs.",
 
     "contact.title": "Contact Us",
     "contact.role": "Organizer &amp; Coordinator",
@@ -177,6 +179,8 @@ const translations = {
     "faq.a4civil": "<strong>Standesamtliche Trauung:</strong> Parkplätze sind an der Villa verfügbar.",
     "faq.a4receptionLabel": "<strong>Empfang:</strong>",
     "faq.a4list": "<li>Hotelparkplätze für Gäste — alle aufgeführten Hotels sind fußläufig vom Veranstaltungsort entfernt.</li><li>Kostenlose Straßenparkplätze entlang der Kaiser-Friedrich-Promenade.</li><li>Parkhaus — Seedammweg 7, 61352 Bad Homburg vor der Höhe (fußläufig vom Veranstaltungsort entfernt).</li>",
+    "faq.q5": "Hat das Brautpaar einen besonderen Wunsch für Geschenke?",
+    "faq.a5": "Eure Anwesenheit bei unserer Hochzeit ist für uns bereits das größte Geschenk. Solltet ihr dennoch etwas schenken wollen, würden wir uns sehr freuen, wenn ihr eine Spende an <a href=\"https://okahshelpinghand.com\" target=\"_blank\" rel=\"noopener\">Okah's Helping Hand</a> in Betracht zieht, eine Wohltätigkeitsorganisation, die Sandra vor sechs Jahren gegründet hat. Sie setzt sich dafür ein, benachteiligte Kinder und Familien in Kamerun durch den Zugang zu Bildung und grundlegenden Bedürfnissen zu unterstützen.",
 
     "contact.title": "Kontakt",
     "contact.role": "Organisation &amp; Koordination",
