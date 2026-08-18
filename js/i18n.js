@@ -23,7 +23,7 @@ const translations = {
     "hero.rsvpBtn": "RSVP Now",
 
     "story.title": "Our Story",
-    "story.p1": "We chatted a lot and after a long time and a few hesitations, we decided to meet. That was in Paris. We then talked some more, had a delicious dinner, a couple glasses of fine wine, laughed... and somehow neither of us scared the other away. You can see in the picture above that it felt promising.",
+    "story.p1": "We chatted a lot and after a long time and a few hesitations, we decided to meet. That was in Paris. We then talked some more, had a delicious dinner, a couple glasses of fine wine, laughed... and somehow neither of us scared the other away. Quite the opposite. As you can tell from the smile on our faces in the picture above, we were smitten. That was our first date.",
     "story.p2": "Since then, we've become partners in adventure, experts at last minute planning, couch buddies and puzzle partners. Through every trip, every ordinary Tuesday, and all our shocking cultural discoveries, we've realised that life is simply better together.",
     "story.p3": "So, we decided to make it official.<br />And here we are.",
 
@@ -124,7 +124,7 @@ const translations = {
     "hero.rsvpBtn": "Jetzt zusagen",
 
     "story.title": "Unsere Geschichte",
-    "story.p1": "Wir haben lange geschrieben, und nach einer Weile und ein paar Zögerlichkeiten haben wir beschlossen, uns zu treffen. Das war in Paris. Wir haben uns weiter unterhalten, ein köstliches Abendessen genossen, ein paar Gläser guten Wein getrunken, gelacht... und irgendwie hat keiner von uns den anderen verschreckt. Auf dem Bild oben kann man sehen, dass es vielversprechend war.",
+    "story.p1": "Wir haben lange geschrieben, und nach einer Weile und ein paar Zögerlichkeiten haben wir beschlossen, uns zu treffen. Das war in Paris. Wir haben uns weiter unterhalten, ein köstliches Abendessen genossen, ein paar Gläser guten Wein getrunken, gelacht... und irgendwie hat keiner von uns den anderen verschreckt. Ganz im Gegenteil. Wie man an unserem Lächeln auf dem Bild oben erkennen kann, waren wir hin und weg. Das war unser erstes Date.",
     "story.p2": "Seitdem sind wir Abenteuerpartner, Experten in Last-Minute-Planung, Couch-Buddys und Puzzlepartner geworden. Durch jede Reise, jeden gewöhnlichen Dienstag und all unsere überraschenden kulturellen Entdeckungen haben wir gemerkt, dass das Leben gemeinsam einfach besser ist.",
     "story.p3": "Also haben wir beschlossen, es offiziell zu machen.<br />Und hier sind wir.",
 
